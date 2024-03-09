@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lets Talk</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Kwitter_room.css">
+<script src="kwitter_room.js"></script>
+</head>
+<body>
+    <div class="container">
+    <button onclick="logout()" class="btn btn-danger" id="logout">Logout</button>
+    <center>
+        <h1>Lets Talk</h1>
+    <h2 id="name"></h2>
+    <div class="inputroomname">
+    <label>ADD ROOM NAME</label>
+    <input id="roomname" placeholder="Add a room name" class="form-control">
+    </div>
+    <button onclick="addRoom()" id="room_add">Add a room</button>
+    <br><br>
+    <label>Trending Rooms</label>
+    <br><br>
+    <h1 id="roomcollection"></h1>
+    </center>
+    </div>
+    
+</body>
+</html>

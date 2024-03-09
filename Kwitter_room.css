@@ -1,0 +1,18 @@
+body{
+    background-color:lightblue;
+    text-align:center;
+}
+h1{
+    font-size: 30px;
+    color: red;
+}
+#logout{
+    float:right;
+}
+#roomname{
+    width:400px
+    
+}
+.inputroomname{
+    width:80%;
+}
